@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="hr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Moj portfolio</title>
+		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+		<link rel="stylesheet" href="lightbox/css/lightbox.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<!-- ************** Zaglavlje / početak ************** -->
+			<div class="row zaglavlje">
+				<div class="col">
+
+				</div>
+			</div>
+			<!-- ************** Zaglavlje / kraj ************** -->
+
+			<!-- ************** Navigacija / početak ************** -->
+			<div class="row navigacija">
+				<div class="col">
+					<div class="hamburger">
+						<span class="fas fa-bars"></span>
+					</div>
+					<ul class="main-menu">
+						<li><a href="index.html">Početna</a></li>
+						<li><a href="o_meni.html">O meni</a></li>
+						<li><a href="moji_radovi.html">Moji radovi</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- ************** Navigacija / kraj ************** -->
+
+			<!-- ************** Galerija / početak ************** -->
+			<div class="row galerija">
+				<div class="col-12">
+					<h1>Fotografije</h1>
+				</div>
+
+				<!-- ************** Prva slika / početak ************** -->
+				<div class="col-12 col-md-6 slika">
+					<div class="maska">
+						<p>
+							<a href="slike/velika1.jpg" data-lightbox="galerija" class="naziv-rada">Slika #1</a>
+
+						</p>
+					</div>
+					<img src="slike/velika1.jpg" class="img-fluid">
+				</div>
+				<!-- ************** Prva slika / kraj ************** -->
+
+				<!-- ************** Druga slika / početak ************** -->
+				<div class="col-12 col-md-6 slika">
+					<div class="maska">
+						<p>
+							<a href="slike/velika2.jpg" data-lightbox="galerija" class="naziv-rada">Slika #2</a>
+
+						</p>
+					</div>
+					<img src="slike/velika2.jpg" class="img-fluid">
+				</div>
+				<!-- ************** Druga slika / kraj ************** -->
+
+				<!-- ************** Treća slika / početak ************** -->
+				<div class="col-12 col-md-6 slika">
+					<div class="maska">
+						<p>
+							<a href="slike/velika3.jpg" data-lightbox="galerija" class="naziv-rada">Slika #3</a>
+						</p>
+					</div>
+					<img src="slike/velika3.jpg" class="img-fluid">
+				</div>
+				<!-- ************** Treća slika / kraj ************** -->
+
+
+				<!-- ************** Četvrta slika / početak ************** -->
+				<div class="col-12 col-md-6 slika">
+					<div class="maska">
+						<p>
+							<a href="slike/velika4.jpg" data-lightbox="galerija" class="naziv-rada">Slika #4</a>
+						</p>
+					</div>
+					<img src="slike/velika4.jpg" class="img-fluid">
+				</div>
+				<!-- ************** Četvrta slika / kraj ************** -->
+			</div>
+			<!-- ************** Galerija / kraj ************** -->
+
+			<!-- ************** Galerija / početak ************** -->
+			<div class="row galerija">
+				<div class="col-12">
+					<h1>Video</h1>
+				</div>
+				<div class="row">
+					<!-- ************** Prvi video / početak ************** -->
+
+							<iframe width="854" height="480" src="https://www.youtube.com/embed/ldLrJcBmEMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+					<!-- ************** Prvi video / kraj ************** -->
+
+				</div>
+			</div>
+			<!-- ************** Galerija / kraj ************** -->
+
+			<!-- ************** Footer / početak ************** -->
+			<div class="row footer">
+				<div class="col">
+					<div class="footer-content">
+						<ul>
+							<li><a href="index.html">Početna</a></li>
+							<li><a href="o_meni.html">O meni</a></li>
+							<li><a href="moji_radovi.html">Galerija</a></li>
+							<li><a href="kontakt.html">Kontakt</a></li>
+						</ul>
+						<p>Izradio: Petar Begović, 2018.</p>
+					</div>
+				</div>
+			</div>
+			<!-- ************** Footer / kraj ************** -->
+		</div>
+		<script src="bootstrap/jquery.min.js"></script>
+		<script src="bootstrap/popper.min.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
+		<script src="lightbox/js/lightbox.js"></script>
+		<script>
+			$('.hamburger').click(function(){
+				$('.main-menu').slideToggle();
+			});
+		</script>
+	</body>
+</html>
